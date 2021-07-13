@@ -1,0 +1,383 @@
+<html>
+    <head>
+        <style>
+            .pagination {
+                margin: auto;
+                width:auto;
+                padding: 10px;
+                }
+
+            .parent {
+                background-color:rgb(230, 224, 224);
+                color: black;
+                }
+
+            .ton {
+                background-color: #0061ae!important;
+                border: none;
+                color: white;
+                padding: 2px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;width:50%;
+                cursor: pointer;border-radius:30px;
+                }
+            
+            .tonAlign {
+                text-align:center;
+                }
+
+            .ton a {
+                color: white;
+                }
+                
+            .ton a:hover, a:active, a:focus {
+                color:white; 
+                text-decoration: underline!important;
+                }
+
+            .headingContainer {
+                background-color: white;
+                }
+
+            .qnaTxt{
+                color: black;
+                }
+
+            .qnaBlk {
+                color: black;
+                background-color: white;
+                border: solid 1px #e5e5e5;
+                padding: 15px 20px; 
+                width:97%;
+                margin:auto;
+                }
+
+            .qnaBlk .blockHeading {
+                margin: 0;
+                border-bottom: 1px solid #f2f2f2;
+                margin-bottom: 15px;
+                padding-bottom: 10px; 
+                }
+
+            .qnaBlk .blockHeading a {
+                color: #333; 
+                }
+
+            .qnaBlk .leftBlk {
+                width: 60px; 
+                }
+
+            .qnaBlk .leftBlk .imgBlk {
+                width: 40px;
+                height: 40px;
+                background-color: #e5e5e5;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                border-radius: 50%;
+                line-height: 15px;
+                text-align: left!important; 
+                }
+
+            .qnaBlk .leftBlk .imgBlk i {
+                font-size: 25px;
+                line-height: 40px; 
+                }
+
+            .qnaBlk .leftBlk img {
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                display: block;
+                }
+
+            .qnaBlk .rightBlk .qDate {
+                color: rgb(20, 20, 20);
+                font-size: 1.2rem; 
+                }
+
+            .qnaBlk .qnaTxt {
+                margin-top: 5px; 
+                }
+
+            .qnaBlk:not(:first-child) {
+                margin-top: 5px;
+                margin-bottom:10px  
+                }
+
+            .qnaBlk .candName a {
+                color: #666; 
+                }
+    </style>
+</head>
+<body>
+    <img alt="FAQ label" src="https://lh3.googleusercontent.com/d/" title="FAQ" height= 60%; width= 60% />
+
+    <script type="text/javascript">
+        function f1()
+        {
+        //
+        // var url = window.location.href;
+        var url =""
+        var len = url.length;
+        var index = url.lastIndexOf('/');
+        var url2 = url.substr(0,index);
+        var page = url.substr(index+1,len+1);
+        page = parseInt(page);
+        page++;
+        page = page.toString();
+        url2=url2+'/'+ page;
+        alert(url2);
+        document.getElementById("abc").href=url2; 
+        }
+    </script>
+
+    <div id="qna" class="parent">
+        <div class="headingContainer">
+            <h2 style="text-align:left" >Frequently Asked Questions</h2>
+        </div>
+        <div class="cardBlkInn qna">
+            <div class="qnaBlks">
+
+                <div id = "block1" class="qnaBlk">
+                    <h4  style="text-align:left" ><strong>Question: </strong>
+                        Question 1
+                    </h4><hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left" ><strong>Answer: </strong>
+                            Answer 1
+                        </p>
+                    </div>
+                </div>
+
+                <div id = "block2" class="qnaBlk">
+                    <h4  style="text-align:left" ><strong>Question: </strong>
+                        Question 2
+                    </h4><hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left" ><strong>Answer: </strong>
+                            Answer 2
+                        </p>
+                    </div>
+                </div>   
+                
+                <div id = "block3" class="qnaBlk">
+                    <h4  style="text-align:left" ><strong>Question: </strong>
+                        Question 3
+                    </h4><hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left" ><strong>Answer: </strong>
+                            Answer 3
+                        </p>
+                    </div>
+                </div>
+
+                <div id = "block4" class="qnaBlk">
+                    <h4  style="text-align:left" ><strong>Question: </strong>
+                        Question 4
+                    </h4><hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left" ><strong>Answer: </strong>
+                            Answer 4
+                        </p>
+                    </div>
+                </div>
+
+                <div id = "block5" class="qnaBlk">
+                    <h4  style="text-align:left" ><strong>Question: </strong>
+                        Question 5
+                    </h4><hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left" ><strong>Answer: </strong>
+                            Answer 5
+                        </p>
+                    </div>
+                </div>
+
+                <div id = "block6" class="qnaBlk">
+                    <h4  style="text-align:left" ><strong>Question: </strong>
+                        Question 6
+                    </h4><hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left" ><strong>Answer: </strong>
+                            Answer 6
+                        </p>
+                    </div>
+                </div>   
+                
+                <div id = "block7" class="qnaBlk">
+                    <h4  style="text-align:left" ><strong>Question: </strong>
+                        Question 7
+                    </h4><hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left" ><strong>Answer: </strong>
+                            Answer 7
+                        </p>
+                    </div>
+                </div>
+
+                <div id = "block8" class="qnaBlk">
+                    <h4  style="text-align:left" ><strong>Question: </strong>
+                        Question 8
+                    </h4><hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left" ><strong>Answer: </strong>
+                            Answer 8
+                        </p>
+                    </div>
+                </div>
+
+                <div id = "block9" class="qnaBlk">
+                    <h4  style="text-align:left" ><strong>Question: </strong>
+                        Question 9
+                    </h4><hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left" ><strong>Answer: </strong>
+                            Answer 9
+                        </p>
+                    </div>
+                </div>
+
+                <div id = "block10" class="qnaBlk">
+                    <h4  style="text-align:left" ><strong>Question: </strong>
+                        Question 10
+                    </h4><hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left" ><strong>Answer: </strong>
+                            Answer 10
+                        </p>
+                    </div>
+                </div>
+
+                <div id = "block11" class="qnaBlk">
+                    <h4  style="text-align:left" ><strong>Question: </strong>
+                        Question 11
+                    </h4><hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left" ><strong>Answer: </strong>
+                            Answer 11
+                        </p>
+                    </div>
+                </div>
+
+                <div id = "block12" class="qnaBlk">
+                    <h4  style="text-align:left" ><strong>Question: </strong>
+                        Question 12
+                    </h4><hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left" ><strong>Answer: </strong>
+                            Answer 12
+                        </p>
+                    </div>
+                </div>   
+                
+                <div id = "block13" class="qnaBlk">
+                    <h4  style="text-align:left" ><strong>Question: </strong>
+                        Question 13
+                    </h4><hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left" ><strong>Answer: </strong>
+                            Answer 13
+                        </p>
+                    </div>
+                </div>
+
+                <div id = "block14" class="qnaBlk">
+                    <h4  style="text-align:left" ><strong>Question: </strong>
+                        Question 14
+                    </h4><hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left" ><strong>Answer: </strong>
+                            Answer 14
+                        </p>
+                    </div>
+                </div>
+
+                <div id = "block15" class="qnaBlk">
+                    <h4  style="text-align:left" ><strong>Question: </strong>
+                        Question 15
+                    </h4><hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left" ><strong>Answer: </strong>
+                            Answer 15
+                        </p>
+                    </div>
+                </div>
+
+                <div id = "block16" class="qnaBlk">
+                    <h4  style="text-align:left" ><strong>Question: </strong>
+                        Question 16
+                    </h4><hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left" ><strong>Answer: </strong>
+                            Answer 16
+                        </p>
+                    </div>
+                </div>   
+                
+                <div id = "block17" class="qnaBlk">
+                    <h4  style="text-align:left" ><strong>Question: </strong>
+                        Question 17
+                    </h4><hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left" ><strong>Answer: </strong>
+                            Answer 17
+                        </p>
+                    </div>
+                </div>
+
+                <div id = "block18" class="qnaBlk">
+                    <h4  style="text-align:left" ><strong>Question: </strong>
+                        Question 18
+                    </h4><hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left" ><strong>Answer: </strong>
+                            Answer 18
+                        </p>
+                    </div>
+                </div>
+
+                <div id = "block19" class="qnaBlk">
+                    <h4  style="text-align:left" ><strong>Question: </strong>
+                        Question 19
+                    </h4><hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left" ><strong>Answer: </strong>
+                            Answer 19
+                        </p>
+                    </div>
+                </div>
+
+                <div id = "block20" class="qnaBlk">
+                    <h4  style="text-align:left" ><strong>Question: </strong>
+                        Question 20
+                    </h4><hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left" ><strong>Answer: </strong>
+                            Answer 20
+                        </p>
+                    </div>
+                </div>
+
+                <div class="tonAlign" style="background:white"><br/>
+                    <div class="ton ">
+                        <div class="pagination">       
+                            <a  href="/">Prev</a>
+                            <span>&nbsp; 1 Of 100&nbsp;</span>
+                            <a id="abc" onclick="f1()" href="/">Next </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

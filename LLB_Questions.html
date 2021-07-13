@@ -1,0 +1,564 @@
+<html>
+
+<head>
+    <style>
+        .pagination {
+            margin: auto;
+            width: auto;
+            padding: 10px;
+        }
+
+        .parent {
+            background-color: rgb(230, 224, 224);
+            color: black;
+        }
+
+        .ton {
+            background-color: #0061ae !important;
+            border: none;
+            color: white;
+            padding: 2px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            width: 50%;
+            cursor: pointer;
+            border-radius: 30px;
+        }
+
+        .tonAlign {
+            text-align: center;
+        }
+
+        .ton a {
+            color: white;
+        }
+
+        .ton a:hover,
+        a:active,
+        a:focus {
+            color: white;
+            text-decoration: underline !important;
+        }
+
+        .headingContainer {
+            background-color: white;
+        }
+
+        .qnaTxt {
+            color: black;
+        }
+
+        .qnaBlk {
+            color: black;
+            background-color: white;
+            border: solid 1px #e5e5e5;
+            padding: 15px 20px;
+            width: 97%;
+            margin: auto;
+        }
+
+        .qnaBlk .blockHeading {
+            margin: 0;
+            border-bottom: 1px solid #f2f2f2;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+        }
+
+        .qnaBlk .blockHeading a {
+            color: #333;
+        }
+
+        .qnaBlk .leftBlk {
+            width: 60px;
+        }
+
+        .qnaBlk .leftBlk .imgBlk {
+            width: 40px;
+            height: 40px;
+            background-color: #e5e5e5;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            border-radius: 50%;
+            line-height: 15px;
+            text-align: left !important;
+        }
+
+        .qnaBlk .leftBlk .imgBlk i {
+            font-size: 25px;
+            line-height: 40px;
+        }
+
+        .qnaBlk .leftBlk img {
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: block;
+        }
+
+        .qnaBlk .rightBlk .qDate {
+            color: rgb(20, 20, 20);
+            font-size: 1.2rem;
+        }
+
+        .qnaBlk .qnaTxt {
+            margin-top: 5px;
+        }
+
+        .qnaBlk:not(:first-child) {
+            margin-top: 5px;
+            margin-bottom: 10px
+        }
+
+        .qnaBlk .candName a {
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <img alt="FAQ label" src="https://lh3.googleusercontent.com/d/" title="FAQ" height=60%; width=60% />
+
+    <script type="text/javascript">
+        function f1() {
+            //
+            // var url = window.location.href;
+            var url = ""
+            var len = url.length;
+            var index = url.lastIndexOf('/');
+            var url2 = url.substr(0, index);
+            var page = url.substr(index + 1, len + 1);
+            page = parseInt(page);
+            page++;
+            page = page.toString();
+            url2 = url2 + '/' + page;
+            alert(url2);
+            document.getElementById("abc").href = url2;
+        }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the age bar for three years LLB course in central university.",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no upper limit age for 3 years LLB course in Central University but it is having a lower limit age of 17 years old. \nFor any further details or query you can check out the link below: \n<a href=\"https://www.clearexam.ac.in/\"> https://www.clearexam.ac.in/ </a>"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which of the 18 universities in the CUCET central university common entrince test offers LLB 3rd year courses?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I think there are 6 colleges as you can refer to their official websites and you will got all the 6 colleges names. \nPlease feel free to check out our link for any information and queries :<a href=\"https://www.clearexam.ac.in/\"> https://www.clearexam.ac.in/ </a>"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "when and where shall B.A.LLB and LLB admission form be available for 2020 academic year?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The admission form for BA LLB and LLB is available in UPES(University of Petroleum and Energy Studies) for the 2020 academic year.\nThe portal link of the UPES is mentioned here, for any access please go through the link :\n<a href=\"https://www.upes.ac.in/llb-admission\"> https://www.upes.ac.in/llb-admission </a>"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I have selected hyd as my center for mhcet but where exactly in hyd is the center?and when will the admitcard released for 5yrs llb course exam",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Don't worry about the center for MH CET. It will be mentioned in the admit card which will be released in June 2021 for both 5 & 3 years LLB courses."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the different ways to become a judge after completing llb",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For becoming a judge after completing LLB you should have to apply for the Judicial Service Examination. Then after clearing this exam you can become a judge in the Subordinate courts. But for becoming a High court or Supreme court Judge is not so easy because you have to gain a lot of knowledge and experience on it then only you can apply for it. \nFor any more information or knowledge check the link below:\n<a href=\"https://www.clearexam.ac.in/\"> https://www.clearexam.ac.in/ </a>"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "what is the fee structure of integrated BA LLB course from PU regional centre in ludhiana?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The fees structure of integrated BA LLB course from PU regional centre in ludhiana is approx Rs. 95,000 per year for 5 years course. Which will become approx Rs 4,70,000-4,75,000. \nHence, for more information check the link below:\n<a href=\"https://www.clearexam.ac.in/\"> https://www.clearexam.ac.in/ </a>"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "BA LLB best Universities in india",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "<ul>\n                            The list below is the top best universities of India for BA LLB with a great placement\n                            record:\n                            <li>UPES</li>\n                            <li>IILM UNIVERSITY - GURUGRAM</li>\n                            <li>IPU</li>\n                            <li>LPU</li>\n                            <li>SASTRA UNIVERSITY</li>\n                        </ul>"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "LLB ( hons.) How long is the course",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The eligibility criteria for applying for LLB (Hons.) is that they should have minimum Education Qualification required is B.A./B.Sc./B.Com. The LLB course is for 3 years in which each year consists of two semesters.\nFor any information regarding LLB do check out the link below: \n<a href=\"https://www.clearexam.ac.in/\"> https://www.clearexam.ac.in/ </a>"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "college provide internship for 3 year llb students or placement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Since you haven't provided any specific college/ university name so that we can help you. Kindly mention some names because different colleges have different policies that's why.\nFor any further details and information check out our website:\n<a href=\"https://www.clearexam.ac.in/\"> https://www.clearexam.ac.in/ </a>"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "which books I should prepare for ballb entrance exam in Punjab University",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "<ul>\n                            Some books name are mentioned below for BA LLB:\n                            <li>CLAT and LLB study package of A.P.Bhardwaj</li>\n                            <li>LLB entrance exam guide of Pankaj Kr Jaiswal</li>\n                            <li>For vocabulary (Norman Lewis)</li>\n                        </ul>"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "is llb necessary to become a judge",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, for becoming a Judge it is a basic requirement of having a law degree and the degree should be recognised by the Bar Council of India. After that you have to pursue the degree with a 3-year LLB degree or even a 5-year integrated degree with BA/BBA/B.Com/B.Sc. After that you have to appear for the State Judicial Services Examination which is held by the government."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "how to fill the LLB after 12th registration form",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, you can't apply for the LLB just after 12th. But there are some other options available after 12th i.e., you can go for BA/LLB or BBA/LLB or B.com/LLB.\nFor some other information regarding LLB you can go through the link :\n<a href=\"https://www.clearexam.ac.in/law/DU-LLB\"> https://www.clearexam.ac.in/law/DU-LLB </a>"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I am a graduate from Andhra Pradesh. Am I eligible to write PU LLB entrance? If so, are there any seats reserved for residents of Punjab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, you can apply for the PU LLB the eligible criteria for it is only 45% aggregate marks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What can i study after bba llb?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "<ul>\n                            There are various options available for studies, some of them are mentioned below:\n                            <li>PhD</li>\n                            <li>M.A/MBA</li>\n                            <li>LLM/LLD</li>\n                        </ul>"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Please let me know if the registration for the DU LLB entry exam has begun, and if so, please provide the URL.",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The DU LLB application form has not yet been released; it will be available on the official website of Delhi University; the exact application date has not been confirmed because no official announcement has been made; stay updated at du.ac.in for more information; the entrance test will be conducted for a duration of two hours in online mode for sections such as English; the entrance test will be conducted for a duration of two hours in online mode for sections such as English; the entrance test will be conducted for a duration of two hours in online."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Chandigarh university (CA) best for bba.llb ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Symbiosis College of Law in Pune, as well as Bharti Vidyapeeth College of Law in Pune and National Law University in Orissa, are the most known colleges for BBA. However, the majority of students are placed in positions that provide a good package. In BBA, the highest package is 6 LPA, while the average package is 3LPA. Overall, cu provides good opportunities for students in terms of placement. Infrastructure: This university's facilities and infrastructure are excellent."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <div id="qna" class="parent">
+        <div class="headingContainer">
+            <h2 style="text-align:left">Frequently Asked Questions</h2>
+        </div>
+        <div class="cardBlkInn qna">
+            <div class="qnaBlks">
+
+                <div id="block1" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        What is the age bar for three years LLB course in central university.
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                            There is no upper limit age for 3 years LLB course in Central University but it is having a
+                            lower limit age of 17 years old.
+                            For any further details or query you can check out the link below:
+                            <a href="https://www.clearexam.ac.in/">https://www.clearexam.ac.in/</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="block2" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        Which of the 18 universities in the CUCET central university common entrince test offers LLB 3rd
+                        year courses?
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                            I think there are 6 colleges as you can refer to their official websites and you will got
+                            all the 6 colleges names.
+                            Please feel free to check out our link for any information and queries :
+                            <a href="https://www.clearexam.ac.in/">https://www.clearexam.ac.in/</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="block3" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        when and where shall B.A.LLB and LLB admission form be available for 2020 academic year?
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                            The admission form for BA LLB and LLB is available in UPES(University of Petroleum and
+                            Energy Studies) for the 2020 academic year.
+                            The portal link of the UPES is mentioned here, for any access please go through the link :
+                            <a href="https://www.upes.ac.in/llb-admission">https://www.upes.ac.in/llb-admission</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="block4" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        I have selected hyd as my center for mhcet but where exactly in hyd is the center?and when will
+                        the admitcard released for 5yrs llb course exam
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                            Don't worry about the center for MH CET. It will be mentioned in the admit card which will
+                            be released in June 2021 for both 5 & 3 years LLB courses.
+                        </p>
+                    </div>
+                </div>
+
+                <div id="block5" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        What are the different ways to become a judge after completing llb
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                            For becoming a judge after completing LLB you should have to apply for the Judicial Service
+                            Examination. Then after clearing this exam you can become a judge in the Subordinate courts.
+                            But for becoming a High court or Supreme court Judge is not so easy because you have to gain
+                            a lot of knowledge and experience on it then only you can apply for it.
+                            For any more information or knowledge check the link below:
+                            <a href="https://www.clearexam.ac.in/">https://www.clearexam.ac.in/</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="block6" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        what is the fee structure of integrated BA LLB course from PU regional centre in ludhiana?
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                            The fees structure of integrated BA LLB course from PU regional centre in ludhiana is approx
+                            Rs. 95,000 per year for 5 years course. Which will become approx Rs 4,70,000-4,75,000.
+                            Hence, for more information check the link below:
+                            <a href="https://www.clearexam.ac.in/">https://www.clearexam.ac.in/</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="block7" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        BA LLB best Universities in india
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                        <ul>
+                            The list below is the top best universities of India for BA LLB with a great placement
+                            record:
+                            <li>UPES</li>
+                            <li>IILM UNIVERSITY - GURUGRAM</li>
+                            <li>IPU</li>
+                            <li>LPU</li>
+                            <li>SASTRA UNIVERSITY</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="block8" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        LLB ( hons.) How long is the course
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                            The eligibility criteria for applying for LLB (Hons.) is that they should have minimum
+                            Education Qualification required is B.A./B.Sc./B.Com. The LLB course is for 3 years in which
+                            each year consists of two semesters.
+                            For any information regarding LLB do check out the link below:
+                            <a href="https://www.clearexam.ac.in/">https://www.clearexam.ac.in/</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="block9" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        college provide internship for 3 year llb students or placement?
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                            Since you haven't provided any specific college/ university name so that we can help you.
+                            Kindly mention some names because different colleges have different policies that's why.
+                            For any further details and information check out our website:
+                            <a href="https://www.clearexam.ac.in/">https://www.clearexam.ac.in/</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="block10" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        which books I should prepare for ballb entrance exam in Punjab University
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                        <ul>
+                            Some books name are mentioned below for BA LLB:
+                            <li>CLAT and LLB study package of A.P.Bhardwaj</li>
+                            <li>LLB entrance exam guide of Pankaj Kr Jaiswal</li>
+                            <li>For vocabulary (Norman Lewis)</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="block11" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        is llb necessary to become a judge
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                            Yes, for becoming a Judge it is a basic requirement of having a law degree and the degree
+                            should be recognised by the Bar Council of India. After that you have to pursue the degree
+                            with a 3-year LLB degree or even a 5-year integrated degree with BA/BBA/B.Com/B.Sc.
+                            After that you have to appear for the State Judicial Services Examination which is held by
+                            the government.
+                        </p>
+                    </div>
+                </div>
+
+                <div id="block12" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        how to fill the LLB after 12th registration form
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                            No, you can't apply for the LLB just after 12th. But there are some other options available
+                            after 12th i.e., you can go for BA/LLB or BBA/LLB or B.com/LLB.
+                            For some other information regarding LLB you can go through the link :
+                            <a href="https://www.clearexam.ac.in/law/DU-LLB">https://www.clearexam.ac.in/law/DU-LLB</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="block13" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        I am a graduate from Andhra Pradesh. Am I eligible to write PU LLB entrance? If so, are there
+                        any seats reserved for residents of Punjab?
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                            Yes, you can apply for the PU LLB the eligible criteria for it is only 45% aggregate marks.
+                        </p>
+                    </div>
+                </div>
+
+                <div id="block14" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        What can i study after bba llb?
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                        <ul>
+                            There are various options available for studies, some of them are mentioned below:
+                            <li>PhD</li>
+                            <li>M.A/MBA</li>
+                            <li>LLM/LLD</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="block15" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        Please let me know if the registration for the DU LLB entry exam has begun, and if so, please
+                        provide the URL.
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                            The DU LLB application form has not yet been released; it will be available on the official
+                            website of Delhi University; the exact application date has not been confirmed because no
+                            official announcement has been made; stay updated at du.ac.in for more information; the
+                            entrance test will be conducted for a duration of two hours in online mode for sections such
+                            as English; the entrance test will be conducted for a duration of two hours in online mode
+                            for sections such as English; the entrance test will be conducted for a duration of two
+                            hours in online.
+                        </p>
+                    </div>
+                </div>
+
+                <div id="block16" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        Is Chandigarh university (CA) best for bba.llb ?
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                            Symbiosis College of Law in Pune, as well as Bharti Vidyapeeth College of Law in Pune and
+                            National Law University in Orissa, are the most known colleges for BBA. However, the
+                            majority of students are placed in positions that provide a good package. In BBA, the
+                            highest package is 6 LPA, while the average package is 3LPA. Overall, cu provides good
+                            opportunities for students in terms of placement. Infrastructure: This university's
+                            facilities and infrastructure are excellent.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="tonAlign" style="background:white"><br />
+                    <div class="ton ">
+                        <div class="pagination">
+                            <a href="/">Prev</a>
+                            <span>&nbsp; 1 Of 100&nbsp;</span>
+                            <a id="abc" onclick="f1()" href="/">Next </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- LLB -->
+</body>
+
+</html>

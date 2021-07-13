@@ -1,0 +1,483 @@
+<html>
+
+<head>
+    <style>
+        .pagination {
+            margin: auto;
+            width: auto;
+            padding: 10px;
+        }
+
+        .parent {
+            background-color: rgb(230, 224, 224);
+            color: black;
+        }
+
+        .ton {
+            background-color: #0061ae !important;
+            border: none;
+            color: white;
+            padding: 2px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            width: 50%;
+            cursor: pointer;
+            border-radius: 30px;
+        }
+
+        .tonAlign {
+            text-align: center;
+        }
+
+        .ton a {
+            color: white;
+        }
+
+        .ton a:hover,
+        a:active,
+        a:focus {
+            color: white;
+            text-decoration: underline !important;
+        }
+
+        .headingContainer {
+            background-color: white;
+        }
+
+        .qnaTxt {
+            color: black;
+        }
+
+        .qnaBlk {
+            color: black;
+            background-color: white;
+            border: solid 1px #e5e5e5;
+            padding: 15px 20px;
+            width: 97%;
+            margin: auto;
+        }
+
+        .qnaBlk .blockHeading {
+            margin: 0;
+            border-bottom: 1px solid #f2f2f2;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+        }
+
+        .qnaBlk .blockHeading a {
+            color: #333;
+        }
+
+        .qnaBlk .leftBlk {
+            width: 60px;
+        }
+
+        .qnaBlk .leftBlk .imgBlk {
+            width: 40px;
+            height: 40px;
+            background-color: #e5e5e5;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            border-radius: 50%;
+            line-height: 15px;
+            text-align: left !important;
+        }
+
+        .qnaBlk .leftBlk .imgBlk i {
+            font-size: 25px;
+            line-height: 40px;
+        }
+
+        .qnaBlk .leftBlk img {
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: block;
+        }
+
+        .qnaBlk .rightBlk .qDate {
+            color: rgb(20, 20, 20);
+            font-size: 1.2rem;
+        }
+
+        .qnaBlk .qnaTxt {
+            margin-top: 5px;
+        }
+
+        .qnaBlk:not(:first-child) {
+            margin-top: 5px;
+            margin-bottom: 10px
+        }
+
+        .qnaBlk .candName a {
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <img alt="FAQ label" src="https://lh3.googleusercontent.com/d/" title="FAQ" height=60%; width=60% />
+
+    <script type="text/javascript">
+        function f1() {
+            //
+            // var url = window.location.href;
+            var url = ""
+            var len = url.length;
+            var index = url.lastIndexOf('/');
+            var url2 = url.substr(0, index);
+            var page = url.substr(index + 1, len + 1);
+            page = parseInt(page);
+            page++;
+            page = page.toString();
+            url2 = url2 + '/' + page;
+            alert(url2);
+            document.getElementById("abc").href = url2;
+        }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How should you take student whether 12 th mark percentage or clat cutoff",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There are two types of courses offered by the College : LLB and BA LLB <br>\nThe LLB is of 3 years course, the eligibility criteria for it is minimum 45% marks in qualifying marks and taking degree from a recognised university.<br>\nAnd the eligibility criteria for BBA LLB is same as eligibility criteria of LLB.<br>\nFor any further information regarding CLAT check out the link below:\n<a href=\"https://www.clearexam.ac.in/law/CLAT\"> https://www.clearexam.ac.in/law/CLAT </a>"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "New patterns of clat 2020 of jodhpur",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CLAT 2020 consists of two sections one is Objective and another is Subjective. The exam consists of 150 objective type questions in which each correct question carries 1 mark and every wrong question deducts 0.25 marks.\n<ul>\nThe exam consists of total five subjects that are:\n<li>English</li>\n<li>Current Affairs</li>\n<li>Legal Aptitude</li>\n<li>Logical Reasoning</li>\n<li>Quantitative Techniques</li>\n</ul>\nFor the exam preparation you would require different study materials, for that check out the link:\n<a href=\"https://www.clearexam.ac.in/\"> https://www.clearexam.ac.in/ </a>"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Suggest books for logical reasoning for CLAT exam.",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "<ul>\nI have listed down some names for the books which will be very much helpful for CLAT:\n<li>A Modern Approach to Logical Reasoning by RS Agarwal</li>\n<li>Analytical Reasoning by MK Pandey</li>\n<li>Quantitative Aptitude e Book by RS Agarwal</li>\n<li>501 Challenging Logical Reasoning Practise Book</li>\n</ul>\nBelow a link is also provided if you would looking for online study material or test series you can check out there:\n<a href=\"https://www.clearexam.ac.in/\"> https://www.clearexam.ac.in/ </a>"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "what is fees for Admission after clear clat",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "After clearing CLAT you got the admission in NLUs. Since there are a lot of NLUs and you haven't mentioned any specific NLU i.e, fees of one NLU is 7.5 lakh and all other NLUs are minimum 7.5 lakh.\nFor more informations regarding CLAT will acquired from the link below:\n<a href=\"https://www.clearexam.ac.in/\"> https://www.clearexam.ac.in/ </a>"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "after complete clat what do we",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "<ul>\nAfter completion of CLAT you can make career in different sectors such as\n<li>Indian corporate Law services</li>\n<li>Law Professor</li>\n<li>Law Firms</li>\n<li>Corporate Sector Jobs</li>\n<li>Judiciary</li>\n</ul>"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "what do we get after clearing CLAT exam?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "After the completion of the CLAT exam you will be able to take admission in the NLUs. The eligibility criteria is that candidates should have completed their graduation in LLB, it can be 3 or 5 years. There is also no age limit for taking admissions in NLUs..\nFor more further information you can check out the link below:\n<a href=\"https://www.clearexam.ac.in/\"> https://www.clearexam.ac.in/ </a>"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "what are the subjects in which we should have commond to crack CLAT",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "<ul>\nThere are five subjects from which you would asked question in the CLAT exam:\n<li>GK and Current Affairs</li>\n<li>Legal Aptitude</li>\n<li>Elementary Mathematics</li>\n<li>Logical Reasoning</li>\n<li>English</li>\n</ul>\nFor cracking exams you should make a command on all these 5 subjects.\nFor any more information and query regarding CLAT check the link below:\n<a href=\"https://www.clearexam.ac.in/\"> https://www.clearexam.ac.in/ </a>"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "is there is any need to take maths in class 11 for to preparation of clat on new syllabus?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There's no need to take math in class 11 but for the preparation of CLAT exam you have to qualify 12th also for which you have to pass in maths with all other subjects also."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "if two student get same score in clat then how there rank are decided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every exam has the same criteria to decide the rank of two students who got the same score, for that you have to check any exams' official websites."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "do clat nlu merits will be based on my board marks or only clat marks",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Since there is no connection of the board marks with the CLAT marks but for the longer run 10th marks is the most important thing. So don't take it lightly. The results of CLAT NLU and merits are decided on the basis of CLAT scores only."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "is there still in 2021 one and only clat the way to get admision in ipu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, for getting admission in IPU the only way is to appear for the CLAT. But different colleges and universities have different exams for getting admission in the law program.\nFor any extra details and informations regarding CLAT exam check the link below:\n<a href=\"https://www.clearexam.ac.in/law/CLAT\"> https://www.clearexam.ac.in/law/CLAT </a>"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "where can I apply/register for clat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hello\nThe CLAT Consortium has postponed the CLAT 2021 exam, which was set to take place on June13th. Due to an increase in COVID-19 cases around the country, the law entrance exam has been postponed indefinitely, posing a threat to all parties in the exam. The new CLAT exam date for 2021 will be revealed later. Meanwhile, the Consortium has extended the deadline for CLAT 2021 applications until June 15th."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <div id="qna" class="parent">
+        <div class="headingContainer">
+            <h2 style="text-align:left">Frequently Asked Questions</h2>
+        </div>
+        <div class="cardBlkInn qna">
+            <div class="qnaBlks">
+
+                <div id="block1" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        How should you take student whether 12 th mark percentage or clat cutoff
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                            There are two types of courses offered by the College : LLB and BA LLB <br>
+                            The LLB is of 3 years course, the eligibility criteria for it is minimum 45% marks in
+                            qualifying marks and taking degree from a recognised university.<br>
+                            And the eligibility criteria for BBA LLB is same as eligibility criteria of LLB.<br>
+                            For any further information regarding CLAT check out the link below:
+                            <a href="https://www.clearexam.ac.in/law/CLAT">https://www.clearexam.ac.in/law/CLAT</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="block2" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        New patterns of clat 2020 of jodhpur
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                            CLAT 2020 consists of two sections one is Objective and another is Subjective.
+                            The exam consists of 150 objective type questions in which each correct question carries 1
+                            mark and every wrong question deducts 0.25 marks.
+                        <ul>
+                            The exam consists of total five subjects that are:
+                            <li>English</li>
+                            <li>Current Affairs</li>
+                            <li>Legal Aptitude</li>
+                            <li>Logical Reasoning</li>
+                            <li>Quantitative Techniques</li>
+                        </ul>
+                        For the exam preparation you would require different study materials, for that check out the
+                        link:
+                        <a href="https://www.clearexam.ac.in/">https://www.clearexam.ac.in/</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="block3" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        Suggest books for logical reasoning for CLAT exam.
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                        <ul>
+                            I have listed down some names for the books which will be very much helpful for CLAT:
+                            <li>A Modern Approach to Logical Reasoning by RS Agarwal</li>
+                            <li>Analytical Reasoning by MK Pandey</li>
+                            <li>Quantitative Aptitude e Book by RS Agarwal</li>
+                            <li>501 Challenging Logical Reasoning Practise Book</li>
+                        </ul>
+                        Below a link is also provided if you would looking for online study material or test series
+                        you can check out there:
+                        <a href="https://www.clearexam.ac.in/">https://www.clearexam.ac.in/</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="block4" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        what is fees for Admission after clear clat
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                            After clearing CLAT you got the admission in NLUs.
+                            Since there are a lot of NLUs and you haven't mentioned any specific NLU i.e, fees of one
+                            NLU is 7.5 lakh and all other NLUs are minimum 7.5 lakh.
+                            For more informations regarding CLAT will acquired from the link below:
+                            <a href="https://www.clearexam.ac.in/">https://www.clearexam.ac.in/</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="block5" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        after complete clat what do we
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                        <ul>
+                            After completion of CLAT you can make career in different sectors such as
+                            <li>Indian corporate Law services</li>
+                            <li>Law Professor</li>
+                            <li>Law Firms</li>
+                            <li>Corporate Sector Jobs</li>
+                            <li>Judiciary</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="block6" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        what do we get after clearing CLAT exam?
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                            After the completion of the CLAT exam you will be able to take admission in the NLUs.
+                            The eligibility criteria is that candidates should have completed their graduation in LLB,
+                            it can be 3 or 5 years. There is also no age limit for taking admissions in NLUs..
+                            For more further information you can check out the link below:
+                            <a href="https://www.clearexam.ac.in/">https://www.clearexam.ac.in/</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="block7" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        what are the subjects in which we should have commond to crack CLAT
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                        <ul>
+                            There are five subjects from which you would asked question in the CLAT exam:
+                            <li>GK and Current Affairs</li>
+                            <li>Legal Aptitude</li>
+                            <li>Elementary Mathematics</li>
+                            <li>Logical Reasoning</li>
+                            <li>English</li>
+                        </ul>
+                        For cracking exams you should make a command on all these 5 subjects.
+                        For any more information and query regarding CLAT check the link below:
+                        <a href="https://www.clearexam.ac.in/">https://www.clearexam.ac.in/</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="block8" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        is there is any need to take maths in class 11 for to preparation of clat on new syllabus?
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                            There's no need to take math in class 11 but for the preparation of CLAT exam you have to
+                            qualify 12th also for which you have to pass in maths with all other subjects also.
+                        </p>
+                    </div>
+                </div>
+
+                <div id="block9" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        if two student get same score in clat then how there rank are decided?
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                            Every exam has the same criteria to decide the rank of two students who got the same score,
+                            for that you have to check any exams' official websites.
+                        </p>
+                    </div>
+                </div>
+
+                <div id="block10" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        do clat nlu merits will be based on my board marks or only clat marks
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                            Since there is no connection of the board marks with the CLAT marks but for the longer run
+                            10th marks is the most important thing. So don't take it lightly.
+                            The results of CLAT NLU and merits are decided on the basis of CLAT scores only.
+                        </p>
+                    </div>
+                </div>
+
+                <div id="block11" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        is there still in 2021 one and only clat the way to get admision in ipu?
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                            Yes, for getting admission in IPU the only way is to appear for the CLAT. But different
+                            colleges and universities have different exams for getting admission in the law program.
+                            For any extra details and informations regarding CLAT exam check the link below:
+                            <a href="https://www.clearexam.ac.in/law/CLAT">https://www.clearexam.ac.in/law/CLAT</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="block12" class="qnaBlk">
+                    <h4 style="text-align:left"><strong>Question: </strong>
+                        where can I apply/register for clat?
+                    </h4>
+                    <hr>
+                    <div class="qnaTxt">
+                        <p style="text-align:left"><strong>Answer: </strong>
+                            Hello<br>
+                            The CLAT Consortium has postponed the CLAT 2021 exam, which was set to take place on June
+                            13th. Due to an increase in COVID-19 cases around the country, the law entrance exam has
+                            been postponed indefinitely, posing a threat to all parties in the exam. The new CLAT exam
+                            date for 2021 will be revealed later. Meanwhile, the Consortium has extended the deadline
+                            for CLAT 2021 applications until June 15th.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="tonAlign" style="background:white"><br />
+                    <div class="ton ">
+                        <div class="pagination">
+                            <a href="/">Prev</a>
+                            <span>&nbsp; 1 Of 100&nbsp;</span>
+                            <a id="abc" onclick="f1()" href="/">Next </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CLAT -->
+</body>
+
+</html>
